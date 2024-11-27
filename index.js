@@ -1,0 +1,1 @@
+const ansel = document.querySelector("")
