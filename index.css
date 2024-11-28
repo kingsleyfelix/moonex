@@ -668,7 +668,7 @@ button{
 } 
 
 @media (max-width: 600px) {
-    .fa-bars{
+    .checkbtn{
         font-size: larger;
         display: initial;
         color: gold;

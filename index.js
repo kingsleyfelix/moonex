@@ -1,3 +1,12 @@
+const bars = document.querySelector(".fa-bars")
+const linksEl = document.querySelectorAll(".mobile-links")
+
+linksEl.forEach((btn)=>{
+    btn.addEventListener("click", ()=>{
+        bars.click()
+    })
+})
+
 const ansel = document.querySelector(".ans")
 const ans2el = document.querySelector(".ans2")
 const ans3el = document.querySelector(".ans3")
